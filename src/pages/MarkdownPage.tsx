@@ -1,5 +1,5 @@
-// import MarkdownContent from '../content/example.md'
+import {ReactComponent as MarkdownContent} from '../content/example.md'
 
-// export default function MarkdownPage() {
-//   return <div className="markdown-body"><MarkdownContent /></div>
-// }
+export default function MarkdownPage() {
+  return <div className="markdown-body"><MarkdownContent /></div>
+}
