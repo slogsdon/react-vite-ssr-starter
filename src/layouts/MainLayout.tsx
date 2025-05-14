@@ -1,3 +1,6 @@
+// This is the main layout component for the application.
+// It provides a navigation bar and renders child routes using the <Outlet> component from React Router.
+
 import { Outlet, Link } from "react-router-dom";
 
 export default function MainLayout() {
