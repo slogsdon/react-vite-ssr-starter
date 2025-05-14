@@ -2,8 +2,8 @@
   "scripts": {
     "build": "vite build",
     "clean": "rm -rf build",
-    "dev": "vite",
-    "export": "npx tsx src/ssr.tsx",
+    "dev": "tsx src/dev-server.ts",
+    "export": "tsx src/ssr.tsx",
     "format": "prettier -w vite.config.ts src/**/*",
     "serve": "vite preview"
   },
@@ -14,10 +14,13 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.27.1",
+    "@types/express": "^5.0.1",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "@vitejs/plugin-react": "^4.4.1",
+    "express": "^5.1.0",
     "prettier": "^3.5.3",
+    "tsx": "^4.19.4",
     "vite": "^4.5.14",
     "vite-plugin-markdown": "^2.2.0"
   }
