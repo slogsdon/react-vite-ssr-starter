@@ -2,8 +2,8 @@
   "scripts": {
     "build": "vite build",
     "clean": "rm -rf build",
-    "dev": "tsx src/dev-server.ts",
-    "export": "tsx src/ssr.tsx",
+    "dev": "tsx src/util/dev-server.ts",
+    "export": "tsx src/util/ssr.tsx",
     "format": "prettier -w vite.config.ts src/**/*",
     "serve": "vite preview"
   },

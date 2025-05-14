@@ -17,10 +17,10 @@ async function startDevServer() {
     try {
       const url = req.originalUrl
 
-      let template = fs.readFileSync(path.resolve(__dirname, '../index.html'), 'utf-8')
+      let template = fs.readFileSync(path.resolve(__dirname, '../../index.html'), 'utf-8')
       template = await vite.transformIndexHtml(url, template)
 
-      const { render } = await vite.ssrLoadModule('/src/entry-ssr.tsx')
+      const { render } = await vite.ssrLoadModule('/src/util/entry-ssr.tsx')
       const appHtml = await render(url)
 
       const html = template.replace('<!--app-->', appHtml)
