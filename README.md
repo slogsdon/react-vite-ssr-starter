@@ -1,6 +1,6 @@
-# React Vite SSG Starter
+# React Vite SSR Starter
 
-This project is a starter template for building static sites with React, Vite, and server-side rendering (SSR). It includes a basic setup for rendering React components to static HTML files and supports Markdown content.
+A starter template for building static sites with React, Vite, and server-side rendering (SSR). It includes a basic setup for rendering React components to static HTML files and supports Markdown content.
 
 ## Features
 
@@ -13,7 +13,7 @@ This project is a starter template for building static sites with React, Vite, a
 ## Project Structure
 
 ```
-react-vite-ssg-starter/
+react-vite-ssr-starter/
 ├── build/                # Output directory for static files
 ├── src/                  # Source code
 │   ├── content/          # Markdown content
@@ -39,15 +39,13 @@ react-vite-ssg-starter/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/react-vite-ssg-starter.git
-   cd react-vite-ssg-starter
+   git clone https://github.com/slogsdon/react-vite-ssr-starter.git
+   cd react-vite-ssr-starter
    ```
 
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 ### Development
